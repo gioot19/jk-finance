@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+/*FORMATAÇÃO GLOBAL DA PAGÍNA*/
+* { /*Resetando os espaçamentos/preenchimentos*/
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "DM Serif Text";
+}
+
+header {
+    background-color: grey;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    /*header fixo*/
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+/*estilização da logo*/
+.logo-jk {
+    width: 8rem; /*largura responsiva da img*/
+    height: auto; /*o auto servirá como uma altura automatica em relação a tela o navegador*/
+}
+
+.ul-list { /*aplicando formatação na ul*/
+    display: flex; /*colocando as li lado a lado*/
+    gap: 10px; /*espaçamentos entre as listas*/
+}
+
+.ul-list li a { /*removendo a estilização padrão da âncora*/
+    text-decoration: none;
+    color: black;
+}
