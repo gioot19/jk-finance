@@ -37,3 +37,47 @@ header {
     text-decoration: none;
     color: black;
 }
+
+.section-01 {
+    background-image: url(img/DESKTOP.png);
+    background-size: cover;
+    background-position: top;
+    padding: 13rem;
+}
+
+/*@media vai servir para defimir configurações/estilizações para tamanhos de tela em especifico*/
+@media (min-width: 480px) {
+     header {
+        background-image: url(img/mobile.png);
+        padding: 10rem;
+    }
+}
+@media (max-width: 500px) {
+    .section-01 {
+        background-image: url(img/tablet.png);
+        padding: 8rem;
+    }
+    nav {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
