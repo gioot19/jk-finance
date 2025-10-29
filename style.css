@@ -45,22 +45,40 @@ header {
     padding: 13rem;
 }
 
+
+
+
+
+
 /*@media vai servir para defimir configurações/estilizações para tamanhos de tela em especifico*/
-@media (min-width: 480px) {
-     header {
-        background-image: url(img/mobile.png);
-        padding: 10rem;
+    @media (max-width: 500px) { 
+
+     .section-01 {
+        background-image: url(img/DESKTOP.png);
+        padding: 15rem;
     }
-}
-@media (max-width: 500px) {
-    .section-01 {
-        background-image: url(img/tablet.png);
-        padding: 8rem;
+    
+    .nav {
+        /*aqui estamos ocultando o menu para versões mobile*/
+        display: none; /*responsavel por ocultar o menu ou qualquer outra prpriedade*/
     }
-    nav {
-        display: none;
+    
+
+    .section-02 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-}
+
+    .text {
+        font-size: 20px;
+    }
+    
+
+
+
+    
+
 
 
 
