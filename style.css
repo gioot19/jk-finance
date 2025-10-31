@@ -45,6 +45,80 @@ header {
     padding: 13rem;
 }
 
+.section-02 {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem; 
+    padding: 9rem; /*=32px*/
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.caixa {
+    background-color: rgb(92, 88, 88); /*cor de fundo*/
+    color: white; /*cor da letra*/
+    font-size: 1.2rem; /*tamanho da letra*/
+    width: 25%; /*largura de todas as caixas em porcentagem*/
+    height: 17rem; /*altura das caixas*/
+    box-shadow: 10px 10px 20px rgb(71, 71, 71); /*sombra das caixas*/
+    border-radius: 5px; /*arrendondamento da borda*/
+    min-width: 300px; /*largura minima da caixa evita que fique muito pequeno*/
+    transition: 0.8s; /*transição para o hover*/
+    cursor: pointer; /*ativar o cursor do mouse*/
+}
+
+.pai-caixas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+}
+
+.icons i {
+    color: black; /*alterei a cor do icon*/
+    font-size: 2rem; /*aumentei o tamanho do icon*/
+    margin-top: 1rem; /*espaçamento superior*/
+    margin-bottom: 0.8; /*espaçamento inferior*/
+}
+
+.caixas {
+    text-align: center; /*alinhamento dos icons no centro*/
+}
+
+.texto-caixa {
+    font-size: 1.2rem; /*tamanho da letra*/
+    margin-bottom: 0.8rem; /*espaçamento inferior*/
+}
+
+.texto-caixa button {
+    width: 8rem; /*largura*/
+    background-color: rgb(3, 3, 3); /*cor de fundo*/
+    color: white; /*cor da letra*/
+    border: none; /*removendo a borda padrão*/
+    padding: 0.5rem; /*preenchimento interno do botão*/
+}
+
+.texto-caixa {
+    text-align: center;
+}
+
+.text-content h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+
 
 
 
@@ -62,17 +136,12 @@ header {
         /*aqui estamos ocultando o menu para versões mobile*/
         display: none; /*responsavel por ocultar o menu ou qualquer outra prpriedade*/
     }
-    
 
-    .section-02 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 
     .text {
-        font-size: 20px;
+        font-size: 25px;
     }
+
     
 
 
