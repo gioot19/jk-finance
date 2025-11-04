@@ -9,7 +9,7 @@
 }
 
 header {
-    background-color: grey;
+    background-color: #393939;
     padding: 2rem;
     display: flex;
     align-items: center;
@@ -35,7 +35,7 @@ header {
 
 .ul-list li a { /*removendo a estilização padrão da âncora*/
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .section-01 {
@@ -46,7 +46,7 @@ header {
 }
 
 .section-02 {
-    background-color: aqua;
+    background-color: #5d5d5d;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,12 +57,13 @@ header {
 }
 
 .caixa {
-    background-color: rgb(92, 88, 88); /*cor de fundo*/
+    background-color: rgb(76, 74, 74); /*cor de fundo*/
     color: white; /*cor da letra*/
     font-size: 1.2rem; /*tamanho da letra*/
+    padding: 1.5rem;
     width: 25%; /*largura de todas as caixas em porcentagem*/
     height: 17rem; /*altura das caixas*/
-    box-shadow: 10px 10px 20px rgb(71, 71, 71); /*sombra das caixas*/
+    box-shadow: 10px 10px 20px rgb(42, 42, 42); /*sombra das caixas*/
     border-radius: 5px; /*arrendondamento da borda*/
     min-width: 300px; /*largura minima da caixa evita que fique muito pequeno*/
     transition: 0.8s; /*transição para o hover*/
@@ -73,7 +74,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 2.5rem;
     flex-wrap: wrap;
     padding: 2rem;
 }
@@ -92,12 +93,19 @@ header {
 
 .caixas {
     text-align: center; /*alinhamento dos icons no centro*/
+    
 }
 
 .texto-caixa {
-    font-size: 1.2rem; /*tamanho da letra*/
+    font-size: 1.1rem; /*tamanho da letra*/
     margin-bottom: 0.8rem; /*espaçamento inferior*/
+    padding: 0.5rem;
 }
+
+.texto-caixa p {
+    padding: 1rem;
+}
+
 
 .texto-caixa button {
     width: 8rem; /*largura*/
@@ -109,6 +117,7 @@ header {
 
 .texto-caixa {
     text-align: center;
+    padding: 1.5rem;
 }
 
 .text-content h3 {
@@ -116,12 +125,44 @@ header {
     font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
+.text-content p {
+    font-size: 1.5rem;
+    color: white;
+}
 
+.section-03 {
+    background-color: #6e6e6e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem; 
+    padding: 9rem; /*=32px*/
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 
+.texto-caixa-01 {
+    text-align: center;
+     font-size: 1.1rem; /*tamanho da letra*/
+    margin-bottom: 0.8rem; /*espaçamento inferior*/
+    padding: 0.5rem;
+}
 
+.texto-caixa-01 p {
+    padding: 1rem;
+}
 
+.texto-caixa-01 button {
+     width: 8rem; /*largura*/
+    background-color: rgb(3, 3, 3); /*cor de fundo*/
+    color: white; /*cor da letra*/
+    border: none; /*removendo a borda padrão*/
+    padding: 0.5rem; /*preenchimento interno do botão*/
+}
 
 
 /*@media vai servir para defimir configurações/estilizações para tamanhos de tela em especifico*/
@@ -142,29 +183,5 @@ header {
         font-size: 25px;
     }
 
-    
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 }
 
