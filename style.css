@@ -164,6 +164,16 @@ header {
     padding: 0.5rem; /*preenchimento interno do botão*/
 }
 
+.caixa-img {
+    background-image: url(img/JK\ BANNER\ OFFICIAL.jpg);
+    width: 21rem;
+    height: 20rem;
+    background-size: cover;
+    background-position: top;
+    box-shadow: 10px 10px 20px rgb(42, 42, 42);
+    
+}
+
 
 /*@media vai servir para defimir configurações/estilizações para tamanhos de tela em especifico*/
     @media (max-width: 500px) { 
