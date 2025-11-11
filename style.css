@@ -171,16 +171,46 @@ header {
     background-size: cover;
     background-position: top;
     box-shadow: 10px 10px 20px rgb(42, 42, 42);
-    
+}
+
+footer{
+     background-color: #393939;
+}
+
+.mask {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 150px;
+}
+
+.mask a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.rede {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 10px;
+}
+
+.rede i {
+    font-size: 2rem;
+    color: white;
 }
 
 
 /*@media vai servir para defimir configurações/estilizações para tamanhos de tela em especifico*/
     @media (max-width: 500px) { 
 
+
      .section-01 {
-        background-image: url(img/DESKTOP.png);
-        padding: 15rem;
+        background-image: url(img/tablet.png);
+        padding: 8rem;
     }
     
     .nav {
@@ -192,6 +222,26 @@ header {
     .text {
         font-size: 25px;
     }
+
+    .section-02 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 4rem 1rem;
+    }
+
+    .text-content h3 {
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+
+
+
+
+
 
 }
 
