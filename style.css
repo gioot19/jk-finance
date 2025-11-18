@@ -203,10 +203,40 @@ footer{
     color: white;
 }
 
+  /*menu mobile*/
+
+        /*icone do menu (hambúrguer)*/
+        .menu-btn {
+            font-size: 2rem;
+            cursor: pointer;
+            display: none; /*torna o item invisivel/só aparece no mobile*/
+        }
+
+        /*navegação domenu hambúrguer*/
+        .nav-menu {
+            display: none; /*sóirá aparecer no mobile*/
+        }
+
+
+
+
+
 
 /*@media vai servir para defimir configurações/estilizações para tamanhos de tela em especifico*/
     @media (max-width: 500px) { 
 
+      
+
+        .menu-desktop {
+            /*aquiestamos ocultando o menu DESKTOP PARA VERSÕES mobile*/
+            display: none; /*responsável por ocultar o menu ou qualquer outra propriedade*/
+
+        }
+
+        .menu-btn {
+            display: flex; /*tornando o menuhambúguer visivel*/
+            margin-right: -3rem; /*posicionamento do menu*/
+        }
 
      .section-01 {
         background-image: url(img/tablet.png);
@@ -239,9 +269,7 @@ footer{
 
 
 
-
-
-
-
 }
+
+
 
