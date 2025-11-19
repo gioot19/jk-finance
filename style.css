@@ -238,6 +238,29 @@ footer{
             margin-right: -3rem; /*posicionamento do menu*/
         }
 
+        /*menu vertical*/
+
+        .nav.menu {
+            position: absolute;
+            top: -30rem; /*começa escondido acima*/
+            left: -2rem; /*ajustando o alinhamento do menu*/
+            width: 100%; /*largura total da caixa do menu*/
+            height: 30vh;  /*alturq da caixa do menu*/
+            background-color: rgb(97, 97, 173);
+            transition: top 0.3s ease-in-out; /*transição suave*/
+            display: flex; /*alinhamento dos itens*/
+            justify-content: center; /*alinhamento horizontal*/
+            align-items: center; /*alinhamento vertical*/
+        }
+
+        .show { /*essa class será chamada pelo javascript para ação do menu*/
+            top: 90px; /*desce suavemente quando é ativado*/
+            left: -2rem; /*posicionamento dp menu*/
+
+        }
+
+
+
      .section-01 {
         background-image: url(img/tablet.png);
         padding: 8rem;
