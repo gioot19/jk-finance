@@ -6,6 +6,7 @@
     padding: 0;
     list-style: none;
     font-family: "DM Serif Text";
+    text-decoration: none;
 }
 
 header {
@@ -226,7 +227,6 @@ footer{
     @media (max-width: 500px) { 
 
       
-
         .menu-desktop {
             /*aquiestamos ocultando o menu DESKTOP PARA VERSÕES mobile*/
             display: none; /*responsável por ocultar o menu ou qualquer outra propriedade*/
@@ -240,13 +240,13 @@ footer{
 
         /*menu vertical*/
 
-        .nav.menu {
+        .nav-menu{
             position: absolute;
             top: -30rem; /*começa escondido acima*/
-            left: -2rem; /*ajustando o alinhamento do menu*/
+             /*ajustando o alinhamento do menu*/
             width: 100%; /*largura total da caixa do menu*/
             height: 30vh;  /*alturq da caixa do menu*/
-            background-color: rgb(97, 97, 173);
+            background-color: #393939;
             transition: top 0.3s ease-in-out; /*transição suave*/
             display: flex; /*alinhamento dos itens*/
             justify-content: center; /*alinhamento horizontal*/
@@ -254,9 +254,13 @@ footer{
         }
 
         .show { /*essa class será chamada pelo javascript para ação do menu*/
-            top: 90px; /*desce suavemente quando é ativado*/
-            left: -2rem; /*posicionamento dp menu*/
+            top: 150px; /*desce suavemente quando é ativado*/
+             /*posicionamento dp menu*/
+        }
 
+        .ul-list2 a {
+            color: white;
+            font-size: 2rem;
         }
 
 
@@ -289,10 +293,8 @@ footer{
         text-align: center;
         padding: 0 1rem;
     }
-
-
-
 }
 
-
-
+    .auto-type {
+        padding: 1rem;
+    }
